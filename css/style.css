@@ -146,21 +146,8 @@ img {
 
  @media screen and (max-width: 480px) {
 
-    h1 {
-        font-size: 3rem;
-    }
-    
-    h2 {
-        font-size: 2.5rem;
-        color: #fffffe;
-    }
-    
-    h3 {
-        font-size: 2rem;
-    }
-
-    p {
-        font-size: 1.25rem;
+    html {
+        font-size: 20px;
     }
 
     .container {
