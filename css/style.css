@@ -154,6 +154,7 @@ img {
     p {
         font-size: 1.25rem;
     }
+
     .container {
         max-width: 100vw;
     }
@@ -165,6 +166,40 @@ img {
 
     .lessons .col, .steps .col {
         width: 100%;
+    }
+
+    .lessons .col img, .steps .col img {
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        background-color: #222222;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 0;
+    }
+
+    .why-us .row {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+    
+    .why-us li {
+        list-style: none;
+        margin-bottom: 2.5rem;
     }
 
  }
