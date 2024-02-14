@@ -164,7 +164,7 @@ img {
     }
 
     .lessons .col img, .steps .col img {
-        height: auto;
+        height: 12rem;
         margin-bottom: 1rem;
     }
 
